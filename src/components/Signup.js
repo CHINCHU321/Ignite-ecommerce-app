@@ -24,7 +24,7 @@ function Signup() {
     e.preventDefault();
     // Handle signup logic
     login(formData);
-    navigate.push('/');
+    navigate('/');
   };
 
   return (

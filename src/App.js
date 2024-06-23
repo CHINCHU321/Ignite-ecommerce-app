@@ -11,8 +11,7 @@ function App() {
      <div className="container">
         <Routes>
         <Route exact path="/" element={<Home/>}/>
-        <Route path="/signup" component={SignupPage} />
-
+        <Route path="/Signup" element={<SignupPage/>} />
         </Routes>
      </div>
     </div>

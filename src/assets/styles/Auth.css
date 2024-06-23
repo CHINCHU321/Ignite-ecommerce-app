@@ -5,6 +5,7 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: black;
 }
 
 .auth-form h2 {
@@ -25,4 +26,37 @@
   margin-bottom: 20px;
   border: 1px solid #ddd;
   border-radius: 5px;
+}
+/* Button styles */
+.auth-form button {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+.auth-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Link styles */
+.auth-form p {
+  text-align: center;
+}
+
+.auth-form a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+/* Link hover effect */
+.auth-form a:hover {
+  color: #0056b3;
 }
